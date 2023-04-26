@@ -1,0 +1,65 @@
+.formSign {
+    min-height: 100vh;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 80px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formSignDiv {
+    width: 500px;
+  }
+  
+  .formSignTitle {
+    color: #2a2a2a;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .formSignGroups {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formSignGroups input {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    padding: 0px 15px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    color: #aaaaaa;
+    border-radius: 0px;
+    border: 1px solid #7a7a7a;
+    box-shadow: none;
+    margin-bottom: 20px;
+  }
+  
+  .formSignGroups input:focus {
+    outline-color: #ffc107;
+  }
+  
+  .formSignDiv button {
+    display: block;
+    margin: 25px auto;
+    background-color: #ffffff;
+    border-color: #2a2a2a;
+    color: #2a2a2a;
+    font-size: 13px;
+    padding: 12px 25px;
+    font-weight: 500;
+    transition: all .3s;
+    cursor: pointer;
+  }
+  
+  .formSignDiv button:hover {
+    background-color: #2a2a2a;
+    color: #ffffff;
+  }
+  
